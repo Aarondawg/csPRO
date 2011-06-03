@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/hyperion_server/!svn/ver/263/trunk/web
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/hyperion_server/!svn/ver/263/trunk/web/.project
+END
+config.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/hyperion_server/!svn/ver/263/trunk/web/config.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/hyperion_server/!svn/ver/263/trunk/web/index.php
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/hyperion_server/!svn/ver/264/trunk/src/org/hyperion/util/login
+END
+LoginPacket.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/hyperion_server/!svn/ver/264/trunk/src/org/hyperion/util/login/LoginPacket.java
+END
+LoginEncoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/hyperion_server/!svn/ver/264/trunk/src/org/hyperion/util/login/LoginEncoder.java
+END
+LoginCodecFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/hyperion_server/!svn/ver/264/trunk/src/org/hyperion/util/login/LoginCodecFactory.java
+END
+LoginDecoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/hyperion_server/!svn/ver/264/trunk/src/org/hyperion/util/login/LoginDecoder.java
+END
