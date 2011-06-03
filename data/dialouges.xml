@@ -1,0 +1,2854 @@
+<list>
+ <dialogueLoader>
+ 	<npcId>1552</npcId><!--Santa-->
+	<questId>-1</questId>
+	<dialouges>
+	  <dialogue>
+		<id>0</id>
+		<type>NPC</type>
+		<lines>
+			<string>Oh Dear! How could I have forgotten Christmas!</string>
+			<string>What am I to do, what am I to do?</string>
+		</lines>
+		<emotion>DISTRESSED</emotion>
+		<nextDialougeId>
+			<int>1</int>
+		</nextDialougeId>
+	  </dialogue>
+	  <dialogue>
+		<id>1</id>
+		<type>PLAYER</type>
+		<lines>
+			<string>Santa? Is there anything I can do?</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>2</int>
+		</nextDialougeId>
+	  </dialogue>
+	  <dialogue>
+		<id>2</id>
+		<type>NPC</type>
+		<lines>
+			<string>No, that's quite alright Thanks though. Here</string>
+			<string>have this for your kindness and generosity,</string>
+			<string>throughout the year!</string>
+		</lines>
+		<emotion>HAPPY</emotion>
+		<nextDialougeId>
+			<int>3</int>
+		</nextDialougeId>
+	  </dialogue>
+	  <dialogue>
+		<id>3</id>
+		<type>OTHER</type>
+	  </dialogue>
+	  <dialogue>
+		<id>4</id>
+		<type>NPC</type>
+		<lines>
+		    <string>Oh dear, you don't seem to have the total level of 300</string>
+			<string>required in order to claim this gift. Return to me once </string>
+			<string>you have gotten that requirement.</string>
+		</lines>
+		<emotion>SAD</emotion>
+		<nextDialougeId>
+			<int>-1</int>
+		</nextDialougeId>
+	  </dialogue>
+	  <dialogue>
+		<id>5</id>
+		<type>NPC</type>
+		<lines><string>Why here you go young man!</string></lines>
+		<emotion>HAPPY</emotion>
+		<nextDialougeId>
+			<int>-1</int>
+		</nextDialougeId>
+	  </dialogue>
+	  <dialogue>
+		<id>6</id>
+		<type>NPC</type>
+		<lines>
+			<string>Merry Christmas!</string>
+		</lines>
+		<emotion>HAPPY</emotion>
+	  </dialogue>
+	</dialouges>
+  </dialogueLoader>
+  <dialogueLoader>
+    <npcId>2244</npcId> <!--Lumbridge Guide..-->
+	<questId>-1</questId>
+	<dialouges>
+	  <dialogue>
+		<id>0</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Greetings adventurer.</string>
+		   <string>I am Phileas the lumbridge guide. I am here to give</string>
+		   <string>directions to new players Do you require help?</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>1</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>1</id>
+		<type>OPTION</type>
+		<lines>
+		   <string>Yes please.</string>
+		   <string>No i can find things myself, thank you.</string>
+		</lines>
+		<nextDialougeId>
+			<int>2</int>
+			<int>40</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>1</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>Yes please.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>3</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>3</id>
+		<type>NPC</type>
+		<lines>
+		   <string>First i must warn you  to take every precaution to</string>
+		   <string>keep your Annihilation password and pin secure.</string>
+		   <string>The most important thing to remember is to never give</string>
+		   <string>your password to or share your account with anyone.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>4</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>4</id>
+		<type>NPC</type>
+		<lines>
+		   <string>I have much more information to impart what </string>
+		   <string>would you like to know about? </string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>5</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>5</id>
+		<type>OPTION</type>
+		<lines>
+		   <string>Yes please.</string>
+		   <string>No i can find things myself, thank you.</string>
+		</lines>
+		<nextDialougeId>
+			<int>6</int>
+			<int>40</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>6</id>
+		<type>OPTION</type>
+		<lines>
+		   <string>Where can i find a quest to go on? </string>
+		   <string>What monsters should i fight? </string>
+		   <string>Where can i make money? </string>
+		   <string>I'd like to know more about security and safety.</string>
+		   <string>I should be good for now, thanks.</string>
+		</lines>
+		<nextDialougeId>
+			<int>7</int>
+			<int>9</int>
+			<int>16</int>
+			<int>19</int>
+			<int>-1</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>7</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>Where can i find a quest to go on? </string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>8</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>8</id>
+		<type>NPC</type>
+		<lines>
+		   <string>By going to a blue star on the map.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>4</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>9</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>What monsters should i fight? </string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>10</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>10</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Well,its going to be tough fighting monsters</string>
+		   <string>without a weapon. I suggest you get a weapon first</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>11</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>11</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>Yeah, thats for sure, but what should i fight </string>
+		   <string>once i have got a weapon?</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>12</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>12</id>
+		<type>NPC</type>
+		<lines>
+		   <string>There are things to kill all over the place! At your level,</string>
+		   <string>you might want to try wandering westwards to the wizards</string>
+		   <string>tower or north-west to the barbarian village. Non-player</string>
+		   <string>characters appear as yellow dots on your minimap, though</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>13</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>13</id>
+		<type>NPC</type>
+		<lines>
+		   <string>there are some that you wont be able to fight such as</string>
+		   <string>myself. If you explore further afield you may be able to</string>
+		   <string>find less crowded areas, but watch out for monsters that</string>
+		   <string>are tougher than you. A monsters combat level is shown </string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>14</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>14</id>
+		<type>NPC</type>
+		<lines>
+		   <string>next to the 'attack' option. If that level is coloured </string>
+		   <string>green it means the monster is weaker than you if it's </string>
+		   <string>red it means you need to run away! Remember you will </string>
+		   <string>do better if you have better armour and weapons it's</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>15</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>15</id>
+		<type>NPC</type>
+		<lines>
+		   <string>always worth carrying a bit of food to heal yourself.</string>
+		   <string>If you are a level 3 try fighting some cows at first </string>
+		   <string>then when you are strong enough you can move to more </string>
+		   <string>vicious monsters.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>4</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>16</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>Where or how can i make money?</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>17</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>17</id>
+		<type>NPC</type>
+		<lines>
+		   <string>There are so many ways to make money here. I would </string>
+		   <string>suggest either killing monsters or training a resource</string>
+		   <string>gathering skill such as mining or woodcutting.</string>
+		   <string>Also pking and staking are very good ways to make cash.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>18</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>18</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Please don't try to get money by begging off other players.</string>
+		   <string>It will make you unpopular. Nobody likes a begger. But</string>
+		   <string>sometimes you might get lucky! But its also irritating to</string>
+		   <string>have players asking for your hard earned cash.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>4</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>19</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>I'd like to know more about security and safety.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>20</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>20</id>
+		<type>NPC</type>
+		<lines>
+		   <string>I can tell you about password security, avoiding </string>
+		   <string>item scamming and in game moderation.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>21</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>21</id>
+		<type>OPTION</type>
+		<lines>
+		   <string>I'd like to know more about password security.</string>
+		   <string>I'd like to know more about avoiding item scamming.</string>
+		   <string>I'd like to know more about ingame moderation.</string>
+		   <string>Never mind.</string>
+		</lines>
+		<nextDialougeId>
+			<int>22</int>
+			<int>29</int>
+			<int>35</int>
+			<int>39</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>22</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>I'd like to know more about password security.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>23</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>23</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Well the first thing to remember with password security</string>
+		   <string>- and i cant stress enough - is to never tell your</string>
+		   <string>password, bank pin or recovery questions to anyone, not</string>
+		   <string>even if they claim to be an annihialtion staff member.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>24</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>24</id>
+		<type>NPC</type>
+		<lines>
+		   <string>The annihilation staff will never ask you for your password. </string>
+		   <string>Sharing your account is a bad idea even if you think that you</string>
+		   <string>know and trust the person you are sharing with. players have</string>
+		   <string>lost items and even thier account this way sharing accounts</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>25</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>25</id>
+		<type>NPC</type>
+		<lines>
+		   <string>is also against the rules.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>26</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>26</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>Is there anything else I should be aware of?</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>27</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>27</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Yes also be careful where you enter your password.</string>
+		   <string>Be aware that fake Annihilation sites exist. Dont </string>
+		   <string>fall for any of them. Only enter your password at</string>
+		   <string>http://www.projectannihilation.org.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>28</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>28</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Also be aware of keyloggers, trojans and phishing</string>
+		   <string>sites ahead they are very dangerous i suggest you.</string>
+		   <string>get avast! antivirus if you do not have it.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>20</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>29</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>I'd like to know more about avoiding item scamming.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>30</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>30</id>
+		<type>NPC</type>
+		<lines>
+		   <string>There are very nice and helpful players on annihilation; </string>
+		   <string>unfortunately as in real life there are some who aren't </string>
+		   <string>so honest. Some people will try to trick you out of your </string>
+		   <string>items. Try not to fall for this because we will not give</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>31</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>31</id>
+		<type>NPC</type>
+		<lines>
+		   <string>you the item you lost back. However people trying to scam</string>
+		   <string>will get banned as it is against the rules. When you are</string>
+		   <string>trading you have a second trade confirmation screen. Always</string>
+		   <string>double-check that you are not getting the items you expect</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>32</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>32</id>
+		<type>NPC</type>
+		<lines>
+		   <string>on this page as some people may try to change what they </string>
+		   <string>are trading at the last minute. Remember when you click </string>
+		   <string>accept on the second trade screen the trade is not reversible.</string>
+		   <string>Be aware of people offering to trim your armour. It is</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>33</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>33</id>
+		<type>NPC</type>
+		<lines>
+		   <string>impossible to do this they just want to scam you out of </string>
+		   <string>your money. Also if you see someone asking you for help to</string>
+		   <string>dupe report the player immedietly! Any dupes will resort to</string>
+		   <string>an ip-ban! Also be free to ask any player moderator or</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>34</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>34</id>
+		<type>NPC</type>
+		<lines>
+		   <string>adminsitrator about the rules and regulations.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>20</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>35</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>I'd like to know more about ingame moderation.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>36</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>36</id>
+		<type>NPC</type>
+		<lines>
+		   <string>You will from time to time see moderator</string>
+		   <string>characters in game. Remeber a real staff member</string>
+		   <string>will never ask for passwords, or any other personal</string>
+		   <string>information. There is a player moderator and a</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>37</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>37</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Game moderator. Player moderators have a silver</string>
+		   <string>crown next to thier name while game moderators</string>
+		   <string>have a golden crown next to thier name they are</string>
+		   <string>also known as administrators.If you would like to</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>38</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>38</id>
+		<type>NPC</type>
+		<lines>
+		   <string>become a player moderator you will have to act </string>
+		   <string>polietly and help others when needed. The annihilation</string>
+		   <string>team will be watching for people with the best character</string>
+		   <string>and game knowledge.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>20</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>39</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>Never mind.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>4</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>40</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>No i can find things myself, thank you.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>-1</int>
+		</nextDialougeId>
+      </dialogue>
+    </dialouges>
+  </dialogueLoader>
+  <dialogueLoader>
+    <npcId>70</npcId> <!--Turael - ALL other Slayer masters are getting this dialogue set aswell.-->
+	<questId>-1</questId>
+	<dialouges>
+	  <dialogue>
+		<id>0</id>
+		<type>NPC</type>
+		<lines>
+		   <string>'ello and what are you after then?</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>1</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>1</id>
+		<type>OPTION</type>
+		<lines>
+		   <string>I need another assignment.</string>
+		   <string>Do you have anything for trade?</string>
+		   <string>er.. nothing</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>2</int>
+			<int>7</int>
+			<int>-1</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>2</id>
+		<type>SLAYER</type>
+      </dialogue>
+	  <dialogue>
+		<id>3</id>
+		<type>OPTION</type>
+		<lines>
+		   <string>Do you have any tips for me?</string>
+		   <string>Thanks, I'll be on my way.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>4</int>
+			<int>6</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>4</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>Do you have any tips for me?</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>5</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>5</id>
+		<type>SLAYER</type>
+      </dialogue>
+	  	  <dialogue>
+		<id>6</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>Thanks, I'll be on my way.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>-1</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>7</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>Do you have anything for trade?</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>8</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>8</id>
+		<type>SHOP</type>
+      </dialogue>
+	</dialouges>
+  </dialogueLoader>
+  <dialogueLoader>
+    <npcId>1597</npcId> <!--Vannaka.-->
+	<questId>-1</questId>
+	<dialouges>
+	  <dialogue>
+		<id>0</id>
+		<type>NPC</type>
+		<lines>
+		   <string>'ello and what are you after then?</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>1</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>1</id>
+		<type>OPTION</type>
+		<lines>
+		   <string>I need another assignment.</string>
+		   <string>Do you have anything for trade?</string>
+		   <string>er.. nothing</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>2</int>
+			<int>7</int>
+			<int>-1</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>2</id>
+		<type>SLAYER</type>
+      </dialogue>
+	  <dialogue>
+		<id>3</id>
+		<type>OPTION</type>
+		<lines>
+		   <string>Do you have any tips for me?</string>
+		   <string>Thanks, I'll be on my way.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>4</int>
+			<int>6</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>4</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>Do you have any tips for me?</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>5</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>5</id>
+		<type>SLAYER</type>
+      </dialogue>
+	  	  <dialogue>
+		<id>6</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>Thanks, I'll be on my way.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>-1</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>7</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>Do you have anything for trade?</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>8</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>8</id>
+		<type>SHOP</type>
+      </dialogue>
+	</dialouges>
+  </dialogueLoader>
+  <dialogueLoader>
+    <npcId>70</npcId> <!--Turael-->
+	<questId>-1</questId>
+	<dialouges>
+	  <dialogue>
+		<id>0</id>
+		<type>NPC</type>
+		<lines>
+		   <string>'ello and what are you after then?</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>1</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>1</id>
+		<type>OPTION</type>
+		<lines>
+		   <string>I need another assignment.</string>
+		   <string>Do you have anything for trade?</string>
+		   <string>er.. nothing</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>2</int>
+			<int>7</int>
+			<int>-1</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>2</id>
+		<type>SLAYER</type>
+      </dialogue>
+	  <dialogue>
+		<id>3</id>
+		<type>OPTION</type>
+		<lines>
+		   <string>Do you have any tips for me?</string>
+		   <string>Thanks, I'll be on my way.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>4</int>
+			<int>6</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>4</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>Do you have any tips for me?</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>5</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>5</id>
+		<type>SLAYER</type>
+      </dialogue>
+	  	  <dialogue>
+		<id>6</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>Thanks, I'll be on my way.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>-1</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>7</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>Do you have anything for trade?</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>8</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>8</id>
+		<type>SHOP</type>
+      </dialogue>
+	</dialouges>
+  </dialogueLoader>
+  <dialogueLoader>
+    <npcId>608</npcId>  <!--Sir Amik Varze-->
+	<questId>14</questId> <!--Black knights fortress-->
+	<dialouges>
+	<!--FIRST QUEST DIALOGUE PART WITH SIR AMIK-->
+	  <dialogue>
+		<id>0</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Greetings adventurer.</string>
+		   <string>I am Sir Amik Varze, the leader of the White</string>
+		   <string>Knights Castle. How may I help you?</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>1</int>
+		</nextDialougeId>
+		<questStage>0</questStage> <!--First dialouge for this quest.-->
+      </dialogue>
+	  <dialogue>
+		<id>1</id>
+		<type>OPTION</type>
+		<lines>
+		   <string>Do you have quests for me?</string>
+		   <string>I'm perfectly fine, thanks.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>3</int>
+			<int>2</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we dont want to check this dialogue..-->
+      </dialogue>
+	  <dialogue>
+		<id>2</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>I'm perfectly fine, thanks.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>-1</int> <!-- (-1) means close the window and do nothing, (-2) means close the window and do some action in the quest class. (dialogueEnded)-->
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we dont want to check this dialogue..-->
+      </dialogue>
+	  <dialogue>
+		<id>3</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>Do you have any quests for me?</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>4</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we dont want to check this dialogue..-->
+      </dialogue>
+	  <dialogue>
+		<id>4</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Hmm, I'm not really sure you're the correct</string>
+		   <string>person to ask. But could you check up on the</string>
+		   <string>Black Knights Fortress for me?</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>5</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we dont want to check this dialogue..-->
+      </dialogue>
+	  <dialogue>
+		<id>5</id>
+		<type>NPC</type>
+		<lines>
+		   <string>I have a feeling that theres something bad</string>
+		   <string>about to happend.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>6</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we dont want to check this dialogue..-->
+      </dialogue>
+	  <dialogue>
+		<id>6</id>
+		<type>OPTION</type>
+		<lines>
+		   <string>I would like to go on this Quest.</string>
+		   <string>Wooh, sounds scary..! I'm out of here!</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>7</int>
+			<int>-1</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we dont want to check this dialogue..-->
+      </dialogue>
+	  <dialogue>
+		<id>7</id>
+		<type>QUEST</type> <!--In handleDialougeActions we simply increase the queststage, play dialogue 8, and set the next dialogue to 9. ;)-->
+		<questStage>-1</questStage> <!--Means we dont want to check this dialogue..-->
+      </dialogue>	  
+	  <dialogue>
+		<id>8</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>Allright, I don't think I have anything better</string>
+		   <string>to do anyway. I guess I'll just go check on the </string>
+		   <string>Black Knights Fortress for you.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>9</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we dont want to check this dialogue..-->
+      </dialogue>
+	  <dialogue>
+		<id>9</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Oh you will? Thank you very much adventure!</string>
+		   <string>What was your name again?</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>10</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we dont want to check this dialogue..-->
+      </dialogue>
+	  <dialogue>
+		<id>10</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>You're welcome I guess. My name is playerName.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>11</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we dont want to check this dialogue..-->
+      </dialogue>
+	  <dialogue>
+		<id>11</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Allright, I'll be sure to remember that.</string>
+		   <string>Good luck on your journey.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>12</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we dont want to check this dialogue..-->
+      </dialogue>
+	  <dialogue>
+		<id>12</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>Thanks, I'll be on my way.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>-1</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we dont want to check this dialogue..-->
+      </dialogue>
+	  <!--END OF THE FIRST QUEST DIALOGUE PART WITH SIR AMIK-->
+	  <!--START OF THE SECOND QUEST DIALOGUE PART WITH SIR AMIK-->
+	  <dialogue>
+		<id>13</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Did you find anything of interest at the</string>
+		   <string>Fortress?</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>-1</int>
+		</nextDialougeId>
+		<questStage>1</questStage> <!--Means we'll get this dialogue if our quest stage is 1...-->
+      </dialogue>
+	</dialouges>
+  </dialogueLoader>
+  <dialogueLoader>
+    <npcId>650</npcId>  <!--The Warrior at the Camp fire for Lost City.-->
+	<questId>83</questId> <!--Lost City-->
+	<dialouges>
+	<!--FIRST QUEST DIALOGUE PART WITH THE WARRIOR-->
+	  <dialogue>
+		<id>0</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Hello there traveller.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>1</int>
+		</nextDialougeId>
+		<questStage>0</questStage> <!--First dialouge for this quest.-->
+      </dialogue>
+	  <dialogue>
+		<id>1</id>
+		<type>OPTION</type>
+		<lines>
+		   <string>What are you camped out here for?</string>
+		   <string>Do you know any good adventures I can go on?</string>
+		</lines>
+		<nextDialougeId>
+			<int>2</int>
+			<int>19</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we dont want to check this dialogue..-->
+      </dialogue>
+	  <dialogue>
+		<id>2</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>What are you camped here for?</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>3</int> 
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we dont want to check this dialogue..-->
+      </dialogue>
+	  <dialogue>
+		<id>3</id>
+		<type>NPC</type>
+		<lines>
+		   <string>We're looking for Zanaris....GAH I mean we're not</string>
+		   <string>here for any particular reason at all.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>4</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we dont want to check this dialogue..-->
+      </dialogue>
+	  <dialogue>
+		<id>4</id>
+		<type>OPTION</type>
+		<lines>
+		   <string>Who's Zanaris?</string>
+		   <string>What's Zanaris?</string>
+		   <string>What makes you think its out here?</string>
+		</lines>
+		<nextDialougeId>
+			<int>5</int>
+			<int>21</int>
+			<int>23</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we dont want to check this dialogue..-->
+      </dialogue>
+	  <dialogue>
+		<id>5</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>Who's Zanaris?</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>6</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we dont want to check this dialogue..-->
+      </dialogue>
+	  <dialogue>
+		<id>6</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Ahahahaha! Zanaris isn't a person! It's a magical hidden</string>
+		   <string>city filled with treasures and rich.. uh, nothing. It's</string>
+		   <string>nothing.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>7</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we dont want to check this dialogue..-->
+      </dialogue>
+	  <dialogue>
+		<id>7</id>
+		<type>OPTION</type> <!--In handleDialougeActions we simply increase the queststage, play dialogue 8, and set the next dialogue to 9. ;)-->
+		<lines>
+		   <string>If its hidden how are you planning to find it?</string>
+		   <string>Theres no such thing.</string>
+		</lines>
+		<nextDialougeId>
+			<int>8</int>
+			<int>25</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we dont want to check this dialogue..-->
+      </dialogue>	  
+	  <dialogue>
+		<id>8</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>If it's hidden how are you planning to find it?</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>9</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we dont want to check this dialogue..-->
+      </dialogue>
+	  <dialogue>
+		<id>9</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Well, we don't want to tell anyone else about that,</string>
+		   <string>because we don't want anyone else sharing in all that</string>
+		   <string>glory and treasure.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>10</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we dont want to check this dialogue..-->
+      </dialogue>
+	  <dialogue>
+		<id>10</id>
+		<type>OPTION</type>
+		<lines>
+		   <string>Please tell me.</string>
+		   <string>Looks like you don't know that either..</string>
+		</lines>
+		<nextDialougeId>
+			<int>27</int>
+			<int>11</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we dont want to check this dialogue..-->
+      </dialogue>
+	  <dialogue>
+		<id>11</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>Well it looks to me like YOU don't know EITHER.</string>
+		   <string>seeing as you're all just sat around here..</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>12</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we dont want to check this dialogue..-->
+      </dialogue>
+	  <dialogue>
+		<id>12</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Of course we know! We just haven't found which tree</string>
+		   <string>the stupid leprechaun's hiding in yet!</string>
+		  </lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>13</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we dont want to check this dialogue..-->
+      </dialogue>
+	  <dialogue>
+		<id>13</id>
+		<type>QUEST</type>
+		<questStage>-1</questStage> <!--Means we dont want to check this dialogue..-->
+      </dialogue>
+	  <dialogue>
+		<id>14</id>
+		<type>NPC</type>
+		<lines>
+		   <string>GAH! I didn't mean to tell you that! Look, just forget I</string>
+		   <string>said anything okay?</string>
+		 </lines>
+		<emotion>SAD</emotion>
+		<nextDialougeId>
+			<int>15</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we dont want to check this dialogue..-->
+      </dialogue>
+	  <dialogue>
+		<id>15</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>So a leprechaun knows where Zanaris is eh?</string>
+		 </lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>16</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we dont want to check this dialogue..-->
+      </dialogue>	  
+	  <dialogue>
+		<id>16</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Ye.. uh, no. No, not at all. And even if he did - which</string>
+		   <string>he doesn't - he DEFINITELY ISN'T hiding in some</string>
+		   <string>tree around here. Nope, definitely not. Honestly.</string>
+		</lines>
+		<emotion>SAD</emotion>
+		<nextDialougeId>
+			<int>17</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we dont want to check this dialogue..-->
+      </dialogue>
+	  <dialogue>
+		<id>17</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>Thanks for the help!</string>
+		</lines>
+		<emotion>HAPPY</emotion>
+		<nextDialougeId>
+			<int>18</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we dont want to check this dialogue..-->
+      </dialogue>
+	  <dialogue>
+		<id>18</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Help? What help? I didn't help! Please don't say I did.</string>
+		   <string>I'll get in trouble!</string>
+		</lines>
+		<emotion>MORESAD</emotion>
+		<nextDialougeId>
+			<int>-1</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we dont want to check this dialogue..-->
+      </dialogue>
+	  <dialogue>
+		<id>19</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>Do you know any good adventures I can go on?</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>20</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we dont want to check this dialogue..-->
+      </dialogue>	  
+	  <dialogue>
+		<id>20</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Adventures?? Pff, nope. Not at all.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>1</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we dont want to check this dialogue..-->
+      </dialogue>
+	  <dialogue>
+		<id>21</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>What is Zanaris?</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>22</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we dont want to check this dialogue..-->
+      </dialogue>
+	  <dialogue>
+		<id>22</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Zanaris? Did I say Zanaris? I definitely </string>
+		   <string>must have meant Lumbridge. Pff Zanaris.. Nice one. </string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>4</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we dont want to check this dialogue..-->
+      </dialogue>
+	  <dialogue>
+		<id>23</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>What makes you think its out here?</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>24</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we dont want to check this dialogue..-->
+      </dialogue>
+	  <dialogue>
+		<id>24</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Out here? What? I don't know what you're</string>
+		   <string>talking about stranger.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>4</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we dont want to check this dialogue..-->
+      </dialogue>	
+	  <dialogue>
+		<id>25</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>Theres no such thing.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>26</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we dont want to check this dialogue..-->
+      </dialogue>	  
+	  <dialogue>
+		<id>26</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Oh no, you're completely right.</string>
+		   <string>How could I be such a fool?</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>7</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we dont want to check this dialogue..-->
+      </dialogue>		 
+	  <dialogue>
+		<id>27</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>Please tell me.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>28</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we dont want to check this dialogue..-->
+      </dialogue>	
+  	  <dialogue>
+		<id>28</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Haha, do you really think I'm that stupid?</string>
+		   <string>I made a promise not to tell anyone!</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>10</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we dont want to check this dialogue..-->
+      </dialogue>	
+	  <!--END OF THE FIRST QUEST DIALOGUE PART THE WARRIOR-->
+	  <!--START OF THE SECOND QUEST DIALOGUE PART WITH THE WARRIOR-->
+	  <dialogue>
+		<id>29</id> 
+		<type>NPC</type>
+		<lines>
+		   <string>Please don't tell anyone that I've told</string>
+		   <string>you about the leprechaun and Zanaris!</string>
+		   <string>I'll get into alot of trouble.</string>
+		</lines>
+		<emotion>MORESAD</emotion>
+		<nextDialougeId>
+			<int>-1</int>
+		</nextDialougeId>
+		<questStage>1</questStage> <!--Means we'll get this dialogue if our quest stage is 1...-->
+      </dialogue>
+	</dialouges>
+  </dialogueLoader>
+  <dialogueLoader>
+    <npcId>654</npcId>  <!--The leprechaun, Shamus, that appears when we click the tree.-->
+	<questId>83</questId> <!--Lost City-->
+	<dialouges>
+	  <dialogue>
+		<id>0</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Ay yer big elephant! Yer've caught me, to be sure!</string>
+		   <string>What would an elephant like yer be wanting wid ol'</string>
+		   <string>Shamus then?</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>1</int>
+		</nextDialougeId>
+		<questStage>1</questStage> <!--We can only talk to it at stage 1.-->
+      </dialogue>
+	  <dialogue>
+		<id>1</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>I want to find Zanaris.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>2</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we don't want to check this dialogue.-->
+      </dialogue>
+	  <dialogue>
+		<id>2</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Zanaris is it now? Well well well... Yer'll be needing to</string>
+		   <string>be going to that funny little shed out there in the</string>
+		   <string>swamp, so you will.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>3</int>
+		</nextDialougeId>
+		<questStage>-1</questStage>
+      </dialogue>
+	  <dialogue>
+		<id>3</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>...but... I thought... Zanaris was a city...?</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>4</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we don't want to check this dialogue.-->
+      </dialogue>
+	  <dialogue>
+		<id>4</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Aye that it is!</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>5</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we don't want to check this dialogue.-->
+      </dialogue>
+	  <dialogue>
+		<id>5</id>
+		<type>OPTION</type>
+		<lines>
+		   <string>How does it fit in a shed then?</string>
+		   <string>I've been in that shed, I didn't see a city.</string>
+		</lines>
+		<nextDialougeId>
+			<int>6</int>
+			<int>7</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we don't want to check this dialogue.-->
+      </dialogue>
+	  <dialogue>
+		<id>6</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>...How does it fit in a shed then?</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>8</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we don't want to check this dialogue.-->
+      </dialogue>
+	  <dialogue>
+		<id>7</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>I've been in that shed, I didn't see a city.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>8</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we don't want to check this dialogue.-->
+      </dialogue>
+	  <dialogue>
+		<id>8</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Ah yes stupid elephant! The city isn't IN the shed! The</string>
+		   <string>doorway to the shed is being a portan to Zanaris, so it</string>
+		   <string>is.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>9</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we don't want to check this dialogue.-->
+      </dialogue>
+	  <dialogue>
+		<id>9</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>So I just walk into the shed and end up in Zanaris</string>
+		   <string>then?</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>10</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we don't want to check this dialogue.-->
+      </dialogue>
+	  <dialogue>
+		<id>10</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Oh, was I fergetting to say? Yer need to be carrying a</string>
+		   <string>Dramenwood staff to be getting there! Otherwise Yer'll</string>
+		   <string>just be ending up in the shed.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>11</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we don't want to check this dialogue.-->
+      </dialogue>
+	  <dialogue>
+		<id>11</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>So where would I get a staff?</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>12</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we don't want to check this dialogue.-->
+      </dialogue>
+	  <dialogue>
+		<id>12</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Dramenwood staffs are crafted from branches of the</string>
+		   <string>Dramen tree, so they are. I hear there's a Dramen</string>
+		   <string>tree over on the island of Entrana in a cave</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>13</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we don't want to check this dialogue.-->
+      </dialogue>
+	  <dialogue>
+		<id>13</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Or some such. There would probably be a good place</string>
+		   <string>for an elephant like yet to be starting looking I reckon.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>14</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we don't want to check this dialogue.-->
+      </dialogue>
+	  <dialogue>
+		<id>14</id>
+		<type>NPC</type>
+		<lines>
+		   <string>The monks are running a ship from Port Sarim to</string>
+		   <string>Entrane, I hear too. Now leave me alone yer elephant!</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>-2</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we don't want to check this dialogue.-->
+      </dialogue>
+	</dialouges>
+  </dialogueLoader>
+  <dialogueLoader>
+    <npcId>657</npcId>  <!--The monks, handling the ship going to Entrana. Only spawned one for now.-->
+	<questId>-1</questId> <!--None.-->
+	<dialouges>
+	  <dialogue>
+		<id>0</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Do you seek passage to holy Entrana? If do you must </string>
+		   <string>leave your weaponry and armour behind. This is</string>
+		   <string>Saradomin's will.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>1</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>1</id>
+		<type>OPTION</type>
+		<lines>
+		   <string>No, not right now.</string>
+		   <string>Yes, okay. I'm ready to go.</string>
+		</lines>
+		<nextDialougeId>
+			<int>-1</int>
+			<int>2</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>2</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>Yes, okay. I'm ready to go.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>3</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>3</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Very well. One moment please.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>4</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>4</id>
+		<type>SHIP</type>
+      </dialogue>
+	</dialouges>
+  </dialogueLoader>
+  <dialogueLoader>
+    <npcId>656</npcId>  <!--The cave monk warning you when you enter the dungeon (Entrana)-->
+	<questId>-1</questId> <!--None.-->
+	<dialouges>
+	  <dialogue>
+		<id>0</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Be careful going in there! You are unarmed, and there</string>
+		   <string>is much evilness lurking down there! The evilness seems</string>
+		   <string>to block off our contact with our gods,</string>
+		</lines>
+		<emotion>SAD</emotion>
+		<nextDialougeId>
+			<int>1</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>1</id>
+		<type>NPC</type>
+		<lines>
+		   <string>so our prayers seem to have less effect down there. Oh</string>
+		   <string>also, you won't be able to come back this way. - This </string>
+		   <string>ladder only goes one way!</string>
+		</lines>
+		<emotion>SAD</emotion>
+		<nextDialougeId>
+			<int>2</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>2</id>
+		<type>NPC</type>
+		<lines>
+		   <string>The only exit from the caves below is a portal which</string>
+		   <string>leads only to the deepest wilderness!.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>3</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>3</id>
+		<type>OPTION</type>
+		<lines>
+		   <string>I don't think I'm strong enough to enter then.</string>
+		   <string>Well that is a risk I will have to take.</string>
+		</lines>
+		<nextDialougeId>
+			<int>4</int>
+			<int>5</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>4</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>I don't think I'm strong enough to enter then.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>-1</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>5</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>Well that is a risk I will have to take.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>6</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>6</id>
+		<type>OTHER</type>
+      </dialogue>
+	</dialouges>
+  </dialogueLoader>
+  <dialogueLoader>
+    <npcId>657</npcId>  <!--The monks, handling the ship going to Entrana. Only spawned one for now.-->
+	<questId>-1</questId> <!--None.-->
+	<dialouges>
+	  <dialogue>
+		<id>0</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Do you seek passage to holy Entrana? If do you must </string>
+		   <string>leave your weaponry and armour behind. This is</string>
+		   <string>Saradomin's will.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>1</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>1</id>
+		<type>OPTION</type>
+		<lines>
+		   <string>No, not right now.</string>
+		   <string>Yes, okay. I'm ready to go.</string>
+		</lines>
+		<nextDialougeId>
+			<int>-1</int>
+			<int>2</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>2</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>Yes, okay. I'm ready to go.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>3</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>3</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Very well. One moment please.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>4</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>4</id>
+		<type>SHIP</type>
+      </dialogue>
+	</dialouges>
+  </dialogueLoader>
+  <dialogueLoader>
+    <npcId>3781</npcId>  <!--Void Knight Squire-->
+	<questId>-1</questId> <!--None.-->
+	<dialouges>
+	  <dialogue>
+		<id>0</id>
+		<type>NPC</type>
+		<lines>
+		   <string>You must defend the Void Knight while the portals are</string>
+		   <string>unsommoned. The ritual takes twenty minutes though,</string>
+		   <string>so you can help out by destroying them yourselves!</string>
+		   <string>Now GO GO GO!</string>
+		</lines>
+		<emotion>ANGER1</emotion>
+		<nextDialougeId>
+			<int>1</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>1</id>
+		<type>OPTION</type>
+		<lines>
+		   <string>What's going on?</string>
+		   <string>How do I repair things?</string>
+		   <string>I want to leave.</string>
+		   <string>I'd better get back to it then.</string>
+		</lines>
+		<nextDialougeId>
+			<int>0</int>
+			<int>5</int>
+			<int>2</int>
+			<int>-1</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>2</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>I want to leave.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>3</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>3</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Its is people like you causing the evil portals to</string>
+		   <string>win the game. Well I don't want to spend time arguing</string>
+		   <string>with you, I'll send you on the boat immediately!</string>
+		   <string>Thanks for your help anyway.</string>
+		</lines>
+		<emotion>SAD</emotion>
+		<nextDialougeId>
+			<int>4</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>4</id>
+		<type>OTHER</type>
+      </dialogue>
+	  <dialogue>
+		<id>5</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>How do I repair things?</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>6</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>6</id>
+		<type>NPC</type>
+		<lines>
+		   <string>In order to repair the Barricades or a broken door, you'll</string>
+		   <string>need a hammer, as well as any type of logs! Either you</string>
+		   <string>click the repair option one the broken objects, or you use</string>
+		   <string>your log with it.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>1</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>7</id>
+		<type>NPC</type>
+		<lines>
+		   <string>The Void Knight was killed, another of our Order has</string>
+		   <string>fallen and that Island is lost.</string>
+		</lines>
+		<emotion>MORESAD</emotion>
+		<nextDialougeId>
+			<int>-1</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>8</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Congratulations! You managed to destroy all the portals!</string>
+		   <string>We've awarded you one Void Knight Commendation</string>
+		   <string>point. Please also accept these coins as a reward.</string>
+		</lines>
+		<emotion>HAPPY</emotion>
+		<nextDialougeId>
+			<int>-1</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>9</id>
+		<type>NPC</type>
+		<lines>
+		   <string>All the portals were destroyed, but according to</string>
+		   <string>our records, you didn't seem to be a part of the game</string>
+		   <string>at all. Therefore we decided not to give you any</string>
+		   <string>rewards.</string>
+		</lines>
+		<emotion>SAD</emotion>
+		<nextDialougeId>
+			<int>-1</int>
+		</nextDialougeId>
+      </dialogue>
+	</dialouges>
+  </dialogueLoader>
+  <dialogueLoader>
+    <npcId>4289</npcId>  <!--Kamfreena from Warirors Guild..-->
+	<questId>-1</questId> <!--None.-->
+	<dialouges>
+	  <dialogue>
+		<id>0</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Why hello there! I'm Kamfreena. Like the look of my</string>
+		   <string>pets? I think they're eyeing you up.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>1</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>1</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>That was a really bad pun.</string>
+		</lines>
+		<emotion>DRUNKTORIGHT</emotion>
+		<nextDialougeId>
+			<int>2</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>2</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Sorry... I don't get to see the rest of the guild much,</string>
+		   <string>stuck up here. The Cyclopes don't talk much you see.</string>
+		</lines>
+		<emotion>SAD</emotion>
+		<nextDialougeId>
+			<int>3</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>3</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>Shouldn't that be cyclopses?</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>4</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>4</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Nope! Cyclopes is the plural of cyclops. One cyclops,</string>
+		   <string>many cyclopes.</string>
+		</lines>
+		<emotion>LAUGH1</emotion>
+		<nextDialougeId>
+			<int>5</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>5</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>Oh, right, thanks.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>6</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>6</id>
+		<type>OPTION</type>
+		<lines>
+		   <string>Where are they from?</string>
+		   <string>How did they get here?</string>
+		   <string>Why are they here?</string>
+		   <string>Bye!</string>
+		</lines>
+		<nextDialougeId>
+			<int>-1</int>
+			<int>-1</int>
+			<int>-1</int>
+			<int>7</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>7</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>Bye!</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>8</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>8</id>
+		<type>NPC</type>
+		<lines>
+		   <string>See you back here soon I hope!</string>
+		</lines>
+		<emotion>HAPPY</emotion>
+		<nextDialougeId>
+			<int>-1</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>9</id>
+		<type>NPC</type>
+		<lines>
+		   <string>I'll release some cyclopes which might drop bronze</string>
+		   <string>defenders for you to start off with, unless you show me</string>
+		   <string>another. Have fun in there.</string>		   
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>16</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>10</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>I have a Bronze defender, please let me in to kill some</string>
+		   <string>more Cyclopes!</string>	   
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>11</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>11</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Bronze eh? The next cyclopes are ready, toddle in</string>
+		   <string>when you're ready.</string>	   
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>16</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>12</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Ahh I see that you have one of the defenders already!</string>  
+		   <string>Well done.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>13</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>13</id>
+		<type>NPC</type>
+		<lines>
+		   <string>I'll release some cyclopes which might drop the next</string>  
+		   <string>defender for you. Have fun in there.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>16</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>14</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Ahh I see that you have one of the rune defenders</string>  
+		   <string>already! Well done.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>15</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>15</id>
+		<type>NPC</type>
+		<lines>
+		   <string>I'll release some cyclopes which might drop the same</string>  
+		   <string>rune defender for you as there isn't any higher! Have</string>
+		   <string>fun in there.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>16</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>16</id>
+		<type>WARRIORS_GUILD</type>
+      </dialogue>
+	  <dialogue>
+		<id>17</id>
+		<type>NPC</type>
+		<lines>
+		   <string>In order to enter this room, you must have at least 100</string>  
+		   <string>Warrior Guild Tokens. You can earn those warious</string>
+		   <string>places at the two floors below us..</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>-1</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>18</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Time is up! You have ran out of Warrior Guild Tokens.</string>  
+		   <string>Please leave the room of Cyclopes as soon as possible.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>-1</int>
+		</nextDialougeId>
+      </dialogue>
+	  <dialogue>
+		<id>19</id>
+		<type>NPC</type>
+		<lines>
+		   <string>I said TIME UP! Please leave by yourself next time.</string>  
+		</lines>
+		<emotion>ANGER1</emotion>
+		<nextDialougeId>
+			<int>-1</int>
+		</nextDialougeId>
+      </dialogue>
+	</dialouges>
+  </dialogueLoader>
+  <dialogueLoader>
+    <npcId>945</npcId>  <!--Tutorial island guy..-->
+	<questId>0</questId> <!--Tutorial island.-->
+	<dialouges>
+	  <dialogue>
+		<id>0</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Greetings! I see you are a new arrival to this land. My</string>
+		   <string>job is to welcome all new visitors. So welcome!</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>1</int>
+		</nextDialougeId>
+		<questStage>0</questStage> <!--First dialouge for this quest.-->
+      </dialogue>
+	  <dialogue>
+		<id>1</id>
+		<type>NPC</type>
+		<lines>
+		   <string>You have already learned the first thing needed to</string>
+		   <string>succeed in this world: talking to other people!</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>2</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we don't want to check this dialogue..-->
+      </dialogue>
+	  <dialogue>
+		<id>2</id>
+		<type>NPC</type>
+		<lines>
+		   <string>You will find many inhabitants of this world have useful</string>
+		   <string>things to say to you. By clicking on them with your</string>
+		   <string>mouse you can talk to them.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>3</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we don't want to check this dialogue..-->
+      </dialogue>
+	  <dialogue>
+		<id>3</id>
+		<type>NPC</type>
+		<lines>
+		   <string>I would also suggest reading through some of the</string>
+		   <string>supporting information on the website. There you can</string>
+		   <string>find the Knowledge Base, which contains all the</string>
+		   <string>additional information you're ever likely to need. It also</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>4</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we don't want to check this dialogue..-->
+      </dialogue>
+	  <dialogue>
+		<id>4</id>
+		<type>NPC</type>
+		<lines>
+		   <string>contains maps and helpful tips to help you on your</string>
+		   <string>journey.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>5</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we don't want to check this dialogue..-->
+      </dialogue>
+	  <dialogue>
+		<id>5</id>
+		<type>QUEST</type>
+		<questStage>-1</questStage> <!--Means we don't want to check this dialogue..-->
+      </dialogue>	  
+	  <dialogue>
+		<id>6</id>
+		<type>NPC</type>
+		<lines>
+		   <string>You will notice a flashing icon of a spanner; please click</string>
+		   <string>on this to continue the tutorial.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>-1</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we don't want to check this dialogue..-->
+      </dialogue>
+	  <dialogue>
+		<id>7</id>
+		<type>NPC</type>
+		<lines>
+		   <string>I'm glad you're making progress!</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>8</int>
+		</nextDialougeId>
+		<questStage>1</questStage> <!--We just opened the settings tab....-->
+      </dialogue>
+	  <dialogue>
+		<id>8</id>
+		<type>NPC</type>
+		<lines>
+		   <string>To continue the tutorial go through that door over</string>
+		   <string>there and speak to your first instructor!</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>-2</int> <!--Goes into the "quest dialogue closed method" and we put hiticons on the door instead..-->
+		</nextDialougeId>
+		<questStage>-1</questStage> <!--Means we don't want to check this dialogue..-->
+      </dialogue>
+	</dialouges>  
+  </dialogueLoader>
+  <dialogueLoader>
+    <npcId>943</npcId>  <!--Survival expert..-->
+	<questId>0</questId> <!--Tutorial island.-->
+	<dialouges>
+	  <dialogue>
+		<id>0</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Hello there, newcomer. My name is Brynna. My job is</string>
+		   <string>to teach you a few survival tips and tricks. First off</string>
+		   <string>we're going to start with the most basic survival skill of</string>
+		   <string>all: making a fire.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>1</int>
+		</nextDialougeId>
+		<questStage>3</questStage> 
+      </dialogue>
+	  <dialogue>
+		<id>1</id>
+		<type>QUEST</type>
+		<questStage>-1</questStage> 
+      </dialogue>
+	  <dialogue>
+		<id>2</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Well done! Next we need to get some food in our</string>
+		   <string>bellies. Wel'll need something to cook. There are shrimp</string>
+		   <string>in the pond there, so lets catch and cook some.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>3</int>
+		</nextDialougeId>
+		<questStage>6</questStage> 
+      </dialogue>
+	  <dialogue>
+		<id>3</id>
+		<type>QUEST</type>
+		<questStage>-1</questStage> 
+      </dialogue>
+	</dialouges>  
+  </dialogueLoader>
+  <dialogueLoader>
+    <npcId>942</npcId>  <!--Master chef..-->
+	<questId>0</questId> <!--Tutorial island.-->
+	<dialouges>
+	  <dialogue>
+		<id>0</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Ah! Welcome, newcomer. I am the Master Chef, Lev. It</string>
+		   <string>is here I will teach you how to cook food truely fit for a</string>
+		   <string>king.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>1</int>
+		</nextDialougeId>
+		<questStage>10</questStage> 
+      </dialogue>
+	  <dialogue>
+		<id>1</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>I already know how to cook. Brynna taught me just</string>
+		   <string>now.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>2</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> 
+      </dialogue>
+	  <dialogue>
+		<id>2</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Hahahahahaha! You call THAT cooking? Some chrimp</string>
+		   <string>on an open log fire? Oh, no, no, no. I am going to</string>
+		   <string>teach you the fine art of cooking bread.</string>
+		</lines>
+		<emotion>LAUGH1</emotion>
+		<nextDialougeId>
+			<int>3</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> 
+      </dialogue>
+	  <dialogue>
+		<id>3</id>
+		<type>NPC</type>
+		<lines>
+		   <string>And no fine meal is complete without good music, so</string>
+		   <string>we'll cover that while you're in here too.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>4</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> 
+      </dialogue>
+	  <dialogue>
+		<id>3</id>
+		<type>QUEST</type>
+		<questStage>-1</questStage> 
+      </dialogue>
+	</dialouges>  
+  </dialogueLoader>
+  <dialogueLoader>
+    <npcId>949</npcId>  <!--Quest guide..-->
+	<questId>0</questId> <!--Tutorial island.-->
+	<dialouges>
+	  <dialogue>
+		<id>0</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Ah. Welcome, adventurer. I'm here to tell you all about</string>
+		   <string>quests. Let's start by opening the quest side panel.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>1</int>
+		</nextDialougeId>
+		<questStage>12</questStage> 
+      </dialogue>
+	  <dialogue>
+		<id>1</id>
+		<type>QUEST</type>
+		<questStage>-1</questStage> 
+      </dialogue>
+	  <dialogue>
+		<id>2</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Now you have the tournal open I'll tell you a bit about</string>
+		   <string>it. At the moment all the quests are shown in red, which</string>
+		   <string>means you have not started them yet.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>3</int>
+		</nextDialougeId>
+		<questStage>13</questStage> 
+      </dialogue>
+	  <dialogue>
+		<id>3</id>
+		<type>NPC</type>
+		<lines>
+		   <string>When you start a quest it will change colour to yellow,</string>
+		   <string>and to green when you've finished. This is so you can</string>
+		   <string>easily see what's complete, whats started, and whats left</string>
+		   <string>to begin.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>4</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> 
+      </dialogue>
+	  <dialogue>
+		<id>4</id>
+		<type>NPC</type>
+		<lines>
+		   <string>The start of quests are easy to find. Look out for the,</string>
+		   <string>star icons on the minimap, just like the one you should</string>
+		   <string>see marking my house.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>5</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> 
+      </dialogue>
+	  <dialogue>
+		<id>5</id>
+		<type>NPC</type>
+		<lines>
+		   <string>The quests themselves can vary greatly from collecting</string>
+		   <string>beads to hunting down dragons. Generally quests are</string>
+		   <string>started by talking to a non-player character like me,</string>
+		   <string>and will involve a series of tasks.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>6</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> 
+      </dialogue>
+	  <dialogue>
+		<id>6</id>
+		<type>NPC</type>
+		<lines>
+		   <string>There's not a lot more I can tell you about questing.</string>
+		   <string>You have to experience the thrill of it yourself to fully</string>
+		   <string>understand. You may find some adventure in the caves</string>
+		   <string>under my house.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>7</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> 
+      </dialogue>
+	  <dialogue>
+		<id>7</id>
+		<type>QUEST</type>
+		<questStage>-1</questStage> 
+      </dialogue>
+	</dialouges>  
+  </dialogueLoader>
+ <dialogueLoader>
+    <npcId>948</npcId>  <!--Mining Instructor..-->
+	<questId>0</questId> <!--Tutorial island.-->
+	<dialouges>
+	  <dialogue>
+		<id>0</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Hi there. You must be new around here. So what do I</string>
+		   <string>call you? 'Newcomer' seems so impersoonal, and if we're</string>
+		   <string>going to be working together, I'd rather call you by</string>
+		   <string>name.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>1</int>
+		</nextDialougeId>
+		<questStage>15</questStage> 
+      </dialogue>
+	  <dialogue>
+		<id>1</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>You can call me playerName.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>2</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> 
+      </dialogue>
+	  <dialogue>
+		<id>2</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Okay then, playerName. My name is Dezzick and I'm a</string>
+		   <string>miner by trade. Lets prospect some of those rocks.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>3</int>
+		</nextDialougeId>
+		<questStage>15</questStage> 
+      </dialogue>
+	  <dialogue>
+		<id>3</id>
+		<type>QUEST</type>
+		<questStage>-1</questStage> 
+      </dialogue>
+	  <dialogue>
+		<id>4</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>I prospected both types of rock! One set contains tin</string>
+		   <string>and the other has copper ore inside.</string>
+		</lines>
+		<emotion>HAPPY</emotion>
+		<nextDialougeId>
+			<int>5</int>
+		</nextDialougeId>
+		<questStage>17</questStage> 
+      </dialogue>
+	  <dialogue>
+		<id>5</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Absolutely right, playerName. These two ore types can</string>
+		   <string>be smelted together to make bronze.</string>
+		</lines>
+		<emotion>HAPPY</emotion>
+		<nextDialougeId>
+			<int>6</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> 
+      </dialogue>
+	  <dialogue>
+		<id>6</id>
+		<type>NPC</type>
+		<lines>
+		   <string>So now that you know what ore is in the rocks over there,</string>
+		   <string>why don't you have a go at mining some tin and</string>
+		   <string>copper? Here, you'll need this to start with.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>7</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> 
+      </dialogue>
+	  <dialogue>
+		<id>7</id>
+		<type>QUEST</type>
+		<questStage>-1</questStage> 
+      </dialogue>
+	  <dialogue>
+		<id>8</id>
+		<type>NPC</type>
+		<lines>
+		   <string>You should definetely try to smelt those ores in</string>
+		   <string>the furnace right over there.</string>
+		</lines>
+		<emotion>HAPPY</emotion>
+		<nextDialougeId>
+			<int>-1</int>
+		</nextDialougeId>
+		<questStage>19</questStage> 
+      </dialogue>
+	  <dialogue>
+		<id>9</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>How do I make a weapon out of this?</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>10</int>
+		</nextDialougeId>
+		<questStage>20</questStage> 
+      </dialogue>
+	  <dialogue>
+		<id>10</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Okay. I'll show you how to make a dagger out of it.</string>
+		   <string>You'll be needing this...</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>11</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> 
+      </dialogue>
+	  <dialogue>
+		<id>11</id>
+		<type>QUEST</type>
+		<questStage>-1</questStage> 
+      </dialogue>
+	</dialouges>  
+  </dialogueLoader>
+ <dialogueLoader>
+    <npcId>944</npcId>  <!--Combat Instructor..-->
+	<questId>0</questId> <!--Tutorial island.-->
+	<dialouges>
+	  <dialogue>
+		<id>0</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Hi there. Well, I have to be honest with you. I'm</string>
+		   <string>supposed to teach you about combat, but since our rats</string>
+		   <string>ran away, I'll just unlock those side panel menu's for</string>
+		   <string>you instead..</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>1</int>
+		</nextDialougeId>
+		<questStage>22</questStage> 
+      </dialogue>
+	  <dialogue>
+		<id>1</id>
+		<type>QUEST</type>
+		<questStage>-1</questStage> 
+      </dialogue>	  
+	  <dialogue>
+		<id>2</id>
+		<type>NPC</type>
+		<lines>
+		   <string>I believe that its impossible to learn how to fight by</string>
+		   <string>killing a few rats anyway, so yeah. My advise simple:</string>
+		   <string>Go our there and kick some ass to get a feeling of what</string>
+		   <string>its like instead.. but remember, be carefull!</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>3</int>
+		</nextDialougeId>
+		<questStage>24</questStage> 
+      </dialogue>
+	  <dialogue>
+		<id>3</id>
+		<type>QUEST</type>
+		<questStage>-1</questStage> 
+      </dialogue>
+	</dialouges>  
+  </dialogueLoader>
+  <dialogueLoader>
+    <npcId>947</npcId>  <!--Financial Advisor-->
+	<questId>0</questId> <!--Tutorial island.-->
+	<dialouges>
+	  <dialogue>
+		<id>0</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>Hello. Who are you?</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>1</int>
+		</nextDialougeId>
+		<questStage>26</questStage> 
+      </dialogue>  
+	  <dialogue>
+		<id>1</id>
+		<type>NPC</type>
+		<lines>
+		   <string>I'm the Financial Adviser. I'm here to tell people how to</string>
+		   <string>make money.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>2</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> 
+      </dialogue>
+	  <dialogue>
+		<id>2</id>
+		<type>PLAYER</type>
+		<lines>
+		   <string>Okay. How can I make money then?</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>3</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> 
+      </dialogue>
+	  <dialogue>
+		<id>3</id>
+		<type>NPC</type>
+		<lines>
+		   <string>How you can make money? Quite.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>4</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> 
+      </dialogue>
+	  <dialogue>
+		<id>4</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Well, there are three basic ways of making money here:</string>
+		   <string>combat, quests and trading. I will talk to you through each</string>
+		   <string>of them very quickly.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>5</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> 
+      </dialogue>
+	  <dialogue>
+		<id>5</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Let's start with combat as it is probably still fresh in</string>
+		   <string>your mind. Many enemies, both human and monsters</string>
+		   <string>will drop items when they die.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>6</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> 
+      </dialogue>
+	  <dialogue>
+		<id>6</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Now, the next way to earn money quickly is by quests.</string>
+		   <string>Many people on RuneScape have things they need</string>
+		   <string>doing, which they will reward you for.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>7</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> 
+      </dialogue>
+	  <dialogue>
+		<id>7</id>
+		<type>NPC</type>
+		<lines>
+		   <string>By getting a high level in skills such as Cooking, Mining,</string>
+		   <string>Smithing or Fishing, you can create or catch your own</string>
+		   <string>items and sell them for pure profit.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>8</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> 
+      </dialogue>
+	  <dialogue>
+		<id>8</id>
+		<type>NPC</type>
+		<lines>
+		   <string>Well, that about covers it. Come back if you'd like to go</string>
+		   <string>over this again.</string>
+		</lines>
+		<emotion>DEFAULT</emotion>
+		<nextDialougeId>
+			<int>9</int>
+		</nextDialougeId>
+		<questStage>-1</questStage> 
+      </dialogue>
+	  <dialogue>
+		<id>9</id>
+		<type>QUEST</type>
+		<questStage>-1</questStage> 
+      </dialogue>
+	</dialouges>  
+  </dialogueLoader>
+</list>
