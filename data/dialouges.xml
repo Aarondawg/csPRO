@@ -97,7 +97,7 @@
 		<type>OPTION</type>
 		<lines>
 		   <string>Yes please.</string>
-		   <string>No i can find things myself, thank you.</string>
+		   <string>No I can find things myself, thank you.</string>
 		</lines>
 		<nextDialougeId>
 			<int>2</int>
@@ -119,8 +119,8 @@
 		<id>3</id>
 		<type>NPC</type>
 		<lines>
-		   <string>First i must warn you  to take every precaution to</string>
-		   <string>keep your Annihilation password and pin secure.</string>
+		   <string>First I must warn you  to take every precaution to</string>
+		   <string>keep your csPRO password and pin secure.</string>
 		   <string>The most important thing to remember is to never give</string>
 		   <string>your password to or share your account with anyone.</string>
 		</lines>
@@ -157,9 +157,9 @@
 		<id>6</id>
 		<type>OPTION</type>
 		<lines>
-		   <string>Where can i find a quest to go on? </string>
+		   <string>Where can I find a quest to go on? </string>
 		   <string>What monsters should i fight? </string>
-		   <string>Where can i make money? </string>
+		   <string>Where can I make money? </string>
 		   <string>I'd like to know more about security and safety.</string>
 		   <string>I should be good for now, thanks.</string>
 		</lines>
@@ -175,7 +175,7 @@
 		<id>7</id>
 		<type>PLAYER</type>
 		<lines>
-		   <string>Where can i find a quest to go on? </string>
+		   <string>Where can I find a quest to go on? </string>
 		</lines>
 		<emotion>DEFAULT</emotion>
 		<nextDialougeId>
@@ -197,7 +197,7 @@
 		<id>9</id>
 		<type>PLAYER</type>
 		<lines>
-		   <string>What monsters should i fight? </string>
+		   <string>What monsters should I fight? </string>
 		</lines>
 		<emotion>DEFAULT</emotion>
 		<nextDialougeId>
@@ -208,8 +208,8 @@
 		<id>10</id>
 		<type>NPC</type>
 		<lines>
-		   <string>Well,its going to be tough fighting monsters</string>
-		   <string>without a weapon. I suggest you get a weapon first</string>
+		   <string>Well, it's going to be tough fighting monsters</string>
+		   <string>without a weapon. I suggest you get a weapon first.</string>
 		</lines>
 		<emotion>DEFAULT</emotion>
 		<nextDialougeId>
@@ -220,8 +220,8 @@
 		<id>11</id>
 		<type>PLAYER</type>
 		<lines>
-		   <string>Yeah, thats for sure, but what should i fight </string>
-		   <string>once i have got a weapon?</string>
+		   <string>Yeah, that's for sure, but what should I fight </string>
+		   <string>once I have gotten a weapon?</string>
 		</lines>
 		<emotion>DEFAULT</emotion>
 		<nextDialougeId>
@@ -261,7 +261,7 @@
 		<type>NPC</type>
 		<lines>
 		   <string>next to the 'attack' option. If that level is coloured </string>
-		   <string>green it means the monster is weaker than you if it's </string>
+		   <string>green it means the monster is weaker than you, if it's </string>
 		   <string>red it means you need to run away! Remember you will </string>
 		   <string>do better if you have better armour and weapons it's</string>
 		</lines>
@@ -275,7 +275,7 @@
 		<type>NPC</type>
 		<lines>
 		   <string>always worth carrying a bit of food to heal yourself.</string>
-		   <string>If you are a level 3 try fighting some cows at first </string>
+		   <string>If you are a level 3 try fighting some cows at first, </string>
 		   <string>then when you are strong enough you can move to more </string>
 		   <string>vicious monsters.</string>
 		</lines>
@@ -288,7 +288,7 @@
 		<id>16</id>
 		<type>PLAYER</type>
 		<lines>
-		   <string>Where or how can i make money?</string>
+		   <string>Where or how can I make money?</string>
 		</lines>
 		<emotion>DEFAULT</emotion>
 		<nextDialougeId>
@@ -302,7 +302,7 @@
 		   <string>There are so many ways to make money here. I would </string>
 		   <string>suggest either killing monsters or training a resource</string>
 		   <string>gathering skill such as mining or woodcutting.</string>
-		   <string>Also pking and staking are very good ways to make cash.</string>
+		   <string>Also PK'ing and staking are very good ways to make money.</string>
 		</lines>
 		<emotion>DEFAULT</emotion>
 		<nextDialougeId>
@@ -315,7 +315,7 @@
 		<lines>
 		   <string>Please don't try to get money by begging off other players.</string>
 		   <string>It will make you unpopular. Nobody likes a begger. But</string>
-		   <string>sometimes you might get lucky! But its also irritating to</string>
+		   <string>sometimes you might get lucky! It is very irritating to</string>
 		   <string>have players asking for your hard earned cash.</string>
 		</lines>
 		<emotion>DEFAULT</emotion>
@@ -378,9 +378,9 @@
 		<type>NPC</type>
 		<lines>
 		   <string>Well the first thing to remember with password security</string>
-		   <string>- and i cant stress enough - is to never tell your</string>
+		   <string>- and I cant stress enough - is to never tell your</string>
 		   <string>password, bank pin or recovery questions to anyone, not</string>
-		   <string>even if they claim to be an annihialtion staff member.</string>
+		   <string>even if they claim to be an csPRO staff member.</string>
 		</lines>
 		<emotion>DEFAULT</emotion>
 		<nextDialougeId>
@@ -391,10 +391,10 @@
 		<id>24</id>
 		<type>NPC</type>
 		<lines>
-		   <string>The annihilation staff will never ask you for your password. </string>
+		   <string>The csPRO staff will never ask you for your password. </string>
 		   <string>Sharing your account is a bad idea even if you think that you</string>
-		   <string>know and trust the person you are sharing with. players have</string>
-		   <string>lost items and even thier account this way sharing accounts</string>
+		   <string>know and trust the person you are sharing with. Players have</string>
+		   <string>lost items and even thier account this way. Sharing accounts</string>
 		</lines>
 		<emotion>DEFAULT</emotion>
 		<nextDialougeId>
@@ -428,9 +428,9 @@
 		<type>NPC</type>
 		<lines>
 		   <string>Yes also be careful where you enter your password.</string>
-		   <string>Be aware that fake Annihilation sites exist. Dont </string>
+		   <string>Be aware that fake csPRO sites exist. Don't </string>
 		   <string>fall for any of them. Only enter your password at</string>
-		   <string>http://www.projectannihilation.org.</string>
+		   <string>http://www.csPRO.org.</string>
 		</lines>
 		<emotion>DEFAULT</emotion>
 		<nextDialougeId>
@@ -442,7 +442,7 @@
 		<type>NPC</type>
 		<lines>
 		   <string>Also be aware of keyloggers, trojans and phishing</string>
-		   <string>sites ahead they are very dangerous i suggest you.</string>
+		   <string>sites ahead they are very dangerous, I suggest you</string>
 		   <string>get avast! antivirus if you do not have it.</string>
 		</lines>
 		<emotion>DEFAULT</emotion>
@@ -465,7 +465,7 @@
 		<id>30</id>
 		<type>NPC</type>
 		<lines>
-		   <string>There are very nice and helpful players on annihilation; </string>
+		   <string>There are very nice and helpful players on csPRO; </string>
 		   <string>unfortunately as in real life there are some who aren't </string>
 		   <string>so honest. Some people will try to trick you out of your </string>
 		   <string>items. Try not to fall for this because we will not give</string>
@@ -544,7 +544,7 @@
 		<type>NPC</type>
 		<lines>
 		   <string>You will from time to time see moderator</string>
-		   <string>characters in game. Remeber a real staff member</string>
+		   <string>characters in game. Remember a real staff member</string>
 		   <string>will never ask for passwords, or any other personal</string>
 		   <string>information. There is a player moderator and a</string>
 		</lines>
@@ -560,7 +560,7 @@
 		   <string>Game moderator. Player moderators have a silver</string>
 		   <string>crown next to thier name while game moderators</string>
 		   <string>have a golden crown next to thier name they are</string>
-		   <string>also known as administrators.If you would like to</string>
+		   <string>also known as administrators. If you would like to</string>
 		</lines>
 		<emotion>DEFAULT</emotion>
 		<nextDialougeId>
@@ -572,7 +572,7 @@
 		<type>NPC</type>
 		<lines>
 		   <string>become a player moderator you will have to act </string>
-		   <string>polietly and help others when needed. The annihilation</string>
+		   <string>polietly and help others when needed. The csPRO</string>
 		   <string>team will be watching for people with the best character</string>
 		   <string>and game knowledge.</string>
 		</lines>
@@ -596,7 +596,7 @@
 		<id>40</id>
 		<type>PLAYER</type>
 		<lines>
-		   <string>No i can find things myself, thank you.</string>
+		   <string>No, I can find things myself, thank you.</string>
 		</lines>
 		<emotion>DEFAULT</emotion>
 		<nextDialougeId>
@@ -950,8 +950,8 @@
 		<id>5</id>
 		<type>NPC</type>
 		<lines>
-		   <string>I have a feeling that theres something bad</string>
-		   <string>about to happend.</string>
+		   <string>I have a feeling that there's something bad</string>
+		   <string>about to happen.</string>
 		</lines>
 		<emotion>DEFAULT</emotion>
 		<nextDialougeId>
@@ -982,9 +982,9 @@
 		<id>8</id>
 		<type>PLAYER</type>
 		<lines>
-		   <string>Allright, I don't think I have anything better</string>
+		   <string>Alright, I don't think I have anything better</string>
 		   <string>to do anyway. I guess I'll just go check on the </string>
-		   <string>Black Knights Fortress for you.</string>
+		   <string>Black Knight's Fortress for you.</string>
 		</lines>
 		<emotion>DEFAULT</emotion>
 		<nextDialougeId>
@@ -1009,7 +1009,7 @@
 		<id>10</id>
 		<type>PLAYER</type>
 		<lines>
-		   <string>You're welcome I guess. My name is playerName.</string>
+		   <string>You're welcome, I guess. My name is playerName.</string>
 		</lines>
 		<emotion>DEFAULT</emotion>
 		<nextDialougeId>
@@ -1021,7 +1021,7 @@
 		<id>11</id>
 		<type>NPC</type>
 		<lines>
-		   <string>Allright, I'll be sure to remember that.</string>
+		   <string>Alright, I'll be sure to remember that.</string>
 		   <string>Good luck on your journey.</string>
 		</lines>
 		<emotion>DEFAULT</emotion>
@@ -1068,7 +1068,7 @@
 		<id>0</id>
 		<type>NPC</type>
 		<lines>
-		   <string>Hello there traveller.</string>
+		   <string>Hello there, traveller.</string>
 		</lines>
 		<emotion>DEFAULT</emotion>
 		<nextDialougeId>
@@ -1255,7 +1255,7 @@
 		<id>15</id>
 		<type>PLAYER</type>
 		<lines>
-		   <string>So a leprechaun knows where Zanaris is eh?</string>
+		   <string>So a leprechaun knows where Zanaris is, eh?</string>
 		 </lines>
 		<emotion>DEFAULT</emotion>
 		<nextDialougeId>
@@ -1355,7 +1355,7 @@
 		<id>23</id>
 		<type>PLAYER</type>
 		<lines>
-		   <string>What makes you think its out here?</string>
+		   <string>What makes you think it's out here?</string>
 		</lines>
 		<emotion>DEFAULT</emotion>
 		<nextDialougeId>
@@ -1478,7 +1478,7 @@
 		<id>2</id>
 		<type>NPC</type>
 		<lines>
-		   <string>Zanaris is it now? Well well well... Yer'll be needing to</string>
+		   <string>Zanaris is it now? Well, well, well... Yer'll be needing to</string>
 		   <string>be going to that funny little shed out there in the</string>
 		   <string>swamp, so you will.</string>
 		</lines>
@@ -1851,7 +1851,7 @@
 		   <string>You must defend the Void Knight while the portals are</string>
 		   <string>unsommoned. The ritual takes twenty minutes though,</string>
 		   <string>so you can help out by destroying them yourselves!</string>
-		   <string>Now GO GO GO!</string>
+		   <string>Now GO, GO, GO!</string>
 		</lines>
 		<emotion>ANGER1</emotion>
 		<nextDialougeId>
@@ -1890,7 +1890,7 @@
 		<type>NPC</type>
 		<lines>
 		   <string>Its is people like you causing the evil portals to</string>
-		   <string>win the game. Well I don't want to spend time arguing</string>
+		   <string>win the game. Well, I don't want to spend time arguing</string>
 		   <string>with you, I'll send you on the boat immediately!</string>
 		   <string>Thanks for your help anyway.</string>
 		</lines>

@@ -264,7 +264,7 @@ public class InterfaceState {
 				break;
 
 			case 303:
-				if (enterAmountId == 1) { // This means its longbows. xD
+				if (enterAmountId == 1) { // This means its longbows. 
 					if (player.getFletchingVariables().isFletching()) {
 						switch (player.getFletchingVariables()
 								.getFletchingType()) {

@@ -33,13 +33,13 @@ public class Server {
 	 *            The command line arguments.
 	 */
 	public static void main(String[] args) {
-		logger.info("Starting Hyperion...");
-		World.getWorld(); // this starts off background loading
+		logger.info("Starting csPRO...");
+		World.getWorld(); // This starts off background loading
 		try {
 			new FileServer().bind().start();
 			new RS2Server().bind(RS2Server.PORT).start();
 		} catch (Exception ex) {
-			logger.log(Level.SEVERE, "Error starting Hyperion.", ex);
+			logger.log(Level.SEVERE, "Error starting csPro.", ex);
 			System.exit(1);
 		}
 	}

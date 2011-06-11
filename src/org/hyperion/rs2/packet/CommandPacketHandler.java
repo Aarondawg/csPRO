@@ -159,6 +159,8 @@ public class CommandPacketHandler implements PacketHandler {
 						player.getActionSender().sendMessage(
 								"Syntax is ::item [id] [count].");
 					}
+				} else if (command.equals("energy")) {
+					player.setRunEnergy(5000);
 				} else if (command.equals("max")) {
 					try {
 						for (int i = 0; i < Skills.SKILL_COUNT; i++) {

@@ -168,8 +168,8 @@ public class ShipTraveling {
 				if (item != null) {
 					if (item.getId() == id) {
 						String[] lines = {
-								"Grr! I see you brought some illegal items! Get",
-								"out of my sight immediately!" };
+								"You have brought items that you cannot take aboard!",
+								"Bank or drop them, and then return to me." };
 						DialogueLoader
 								.dialogue(
 										player,

@@ -60,8 +60,8 @@ public class ActionSender {
 	public ActionSender sendInventoryInterface(int interfaceId,
 			int inventoryInterfaceId) {
 		player.getInterfaceState().interfaceOpened(interfaceId);
-		player.write(new PacketBuilder(171).putShortA(interfaceId)
-				.putShortA(inventoryInterfaceId).toPacket());
+		player.write(new PacketBuilder(171).putShortA(interfaceId).putShortA(
+				inventoryInterfaceId).toPacket());
 		return this;
 	}
 
@@ -146,15 +146,13 @@ public class ActionSender {
 		 * new PaletteTile(3222 / 8, 3222 / 8); pal.setTile(x, y, z, tile); } }
 		 * } sendConstructMapRegion(pal, Location.create(4000, 4000, 0));
 		 */
-		// Quest tutorialIsland = QuestHandler.getQuest(0);
+		//Quest tutorialIsland = QuestHandler.getQuest(0);
 
-		sendMessage("Welcome to RuneScape.");
-		// if(tutorialIsland.isFinished(player)) {
-		sendSidebarInterfaces();
-		// }
+		sendMessage("Welcome to csPRO.");
+		//if (tutorialIsland.isFinished(player)) {
+			sendSidebarInterfaces();
+		//}
 
-		sendMessage("Please donate to pj-annihilation@hotmail.com in order to keep us alive.");
-		sendMessage("Thanks in advance.");
 		sendWelcomeScreen(378, 20);
 
 		sendInteractionOption("Trade with", 3, false);
@@ -197,24 +195,25 @@ public class ActionSender {
 		player.getInventory().addListener(inventoryListener);
 		player.editQuestInfo(TutorialIsland.QUEST_INFO_INDEX, 0,
 				TutorialIsland.MAX_STAGE);
-		// int[][] info = player.getQuestInfo();
-		// final int stage = info[TutorialIsland.QUEST_INFO_INDEX][0];
-		// if(stage > 22) {
-		InterfaceContainerListener equipmentListener1 = new InterfaceContainerListener(
-				player, Equipment.INTERFACE1, 25, 94);
-		player.getEquipment().addListener(equipmentListener1);
-		player.getEquipment().addListener(
-				new EquipmentContainerListener(player));
+		//int[][] info = player.getQuestInfo();
+		//final int stage = info[TutorialIsland.QUEST_INFO_INDEX][0];
+		//if (stage > 22) {
+			InterfaceContainerListener equipmentListener1 = new InterfaceContainerListener(
+					player, Equipment.INTERFACE1, 25, 94);
+			player.getEquipment().addListener(equipmentListener1);
+			player.getEquipment().addListener(
+					new EquipmentContainerListener(player));
 
-		InterfaceContainerListener equipmentListener2 = new InterfaceContainerListener(
-				player, Equipment.INTERFACE2, 103, 95);
-		player.getEquipment().addListener(equipmentListener2);
-		player.getEquipment().addListener(
-				new EquipmentContainerListener(player));
-		player.getEquipment().addListener(new WeaponContainerListener(player));
-		// }
+			InterfaceContainerListener equipmentListener2 = new InterfaceContainerListener(
+					player, Equipment.INTERFACE2, 103, 95);
+			player.getEquipment().addListener(equipmentListener2);
+			player.getEquipment().addListener(
+					new EquipmentContainerListener(player));
+			player.getEquipment().addListener(
+					new WeaponContainerListener(player));
+		//}
 
-		// TutorialIsland.start(player);
+		//TutorialIsland.start(player);
 		return this;
 	}
 
@@ -257,10 +256,10 @@ public class ActionSender {
 	public ActionSender sendWelcomeScreen(int topInterface, int buttonInterface) {
 		player.getInterfaceState().interfaceOpened(topInterface);
 		player.getSession().write(
-				new PacketBuilder(129).putShort(buttonInterface)
-						.putShortA(topInterface).toPacket());
+				new PacketBuilder(129).putShort(buttonInterface).putShortA(
+						topInterface).toPacket());
 		sendString(
-				"<col=010101>Welcome to Project Annihilation! <br> <col=010101>- a RuneScape Private Server based on the #459 Protocol.",
+				"<col=010101>Welcome to csPRO! <br> <col=010101>- a RuneScape Private Server based on the #459 Protocol.",
 				topInterface, 12);
 		sendString(
 				"You have not yet set any recovery questions. It is <col=DD7500>strongly <col=FFFF00>reccommended that you do so. If you don't you will be <col=DD7500>unable to recover your password <col=FFFF00>if you forget it, or it is stolen.",
@@ -658,8 +657,8 @@ public class ActionSender {
 	 * @return The action sender instance, for chaining.
 	 */
 	public ActionSender sendConfig1(int id, int value) {
-		player.write(new PacketBuilder(244).putByteS((byte) value)
-				.putLEShort(id).toPacket());
+		player.write(new PacketBuilder(244).putByteS((byte) value).putLEShort(
+				id).toPacket());
 		return this;
 	}
 
@@ -761,13 +760,15 @@ public class ActionSender {
 				.getRegionByLocation(player.getLocation()).getPlayers()) {
 			plr.getActionSender().sendCoords(
 					Location.create(objx, objy, plr.getLocation().getZ()));
-			plr.getSession()
-					.write(new PacketBuilder(209)
-							.putShort(animationID)
-							.put((byte) 0)
-							.putByteS(
-									(byte) ((tileObjectType << 2) + (orientation & 3)))
-							.toPacket());
+			plr
+					.getSession()
+					.write(
+							new PacketBuilder(209)
+									.putShort(animationID)
+									.put((byte) 0)
+									.putByteS(
+											(byte) ((tileObjectType << 2) + (orientation & 3)))
+									.toPacket());
 		}
 		return this;
 	}
@@ -787,8 +788,8 @@ public class ActionSender {
 			int objectFace, Location position) {
 		sendCoords(position);
 		PacketBuilder bldr = new PacketBuilder(236);
-		bldr.putLEShortA(objectId).putByteC(0)
-				.putByteS((byte) ((objectType << 2) + (objectFace & 3)));
+		bldr.putLEShortA(objectId).putByteC(0).putByteS(
+				(byte) ((objectType << 2) + (objectFace & 3)));
 		player.getSession().write(bldr.toPacket());
 		return this;
 	}
@@ -797,8 +798,8 @@ public class ActionSender {
 			int objectFace, Location position) {
 		sendLocalCoords(position);
 		PacketBuilder bldr = new PacketBuilder(236);
-		bldr.putLEShortA(objectId).putByteC(0)
-				.putByteS((byte) ((objectType << 2) + (objectFace & 3)));
+		bldr.putLEShortA(objectId).putByteC(0).putByteS(
+				(byte) ((objectType << 2) + (objectFace & 3)));
 		player.getSession().write(bldr.toPacket());
 		return this;
 	}
@@ -988,8 +989,8 @@ public class ActionSender {
 	}
 
 	public ActionSender sendFriend(long name, int world) {
-		PacketBuilder bldr = new PacketBuilder(224).putLong(name)
-				.putShort(world).put((byte) 1);
+		PacketBuilder bldr = new PacketBuilder(224).putLong(name).putShort(
+				world).put((byte) 1);
 		player.getSession().write(bldr.toPacket());
 		return this;
 	}
@@ -1005,12 +1006,11 @@ public class ActionSender {
 
 	public ActionSender sendSentPrivateMessage(long name, String message) {
 		byte[] bytes = new byte[message.length()];
-		TextUtils.encryptPlayerChat(bytes, 0, 0, message.length(),
-				message.getBytes());
+		TextUtils.encryptPlayerChat(bytes, 0, 0, message.length(), message
+				.getBytes());
 		player.getSession().write(
-				new PacketBuilder(170, Type.VARIABLE).putLong(name)
-						.put((byte) message.length()).putBytes(bytes)
-						.toPacket());
+				new PacketBuilder(170, Type.VARIABLE).putLong(name).put(
+						(byte) message.length()).putBytes(bytes).toPacket());
 		return this;
 	}
 
@@ -1019,16 +1019,14 @@ public class ActionSender {
 		int messageCounter = player.getFriends().getNextUniqueId();
 		byte[] bytes = new byte[message.length() + 1];
 		bytes[0] = (byte) message.length();
-		TextUtils.encryptPlayerChat(bytes, 0, 1, message.length(),
-				message.getBytes());
+		TextUtils.encryptPlayerChat(bytes, 0, 1, message.length(), message
+				.getBytes());
 		PacketBuilder gen = new PacketBuilder(67, Type.VARIABLE);
-		gen.putLong(name)
-				.putShort(1)
-				.putBytes(
-						new byte[] { (byte) ((messageCounter << 16) & 0xFF),
-								(byte) ((messageCounter << 8) & 0xFF),
-								(byte) (messageCounter & 0xFF) })
-				.put((byte) rights).putBytes(bytes);
+		gen.putLong(name).putShort(1).putBytes(
+				new byte[] { (byte) ((messageCounter << 16) & 0xFF),
+						(byte) ((messageCounter << 8) & 0xFF),
+						(byte) (messageCounter & 0xFF) }).put((byte) rights)
+				.putBytes(bytes);
 		player.getSession().write(gen.toPacket());
 		return this;
 	}
@@ -1054,8 +1052,8 @@ public class ActionSender {
 	 * */
 	public ActionSender sendChatOptions(int publicChat, int privateChat,
 			int trade) {
-		PacketBuilder bldr = new PacketBuilder(200).put((byte) publicChat)
-				.put((byte) privateChat).put((byte) trade);
+		PacketBuilder bldr = new PacketBuilder(200).put((byte) publicChat).put(
+				(byte) privateChat).put((byte) trade);
 		player.getSession().write(bldr.toPacket());
 		return this;
 	}
@@ -1112,16 +1110,12 @@ public class ActionSender {
 			int offsetX, int offsetY, int gfx, int angle, int startHeight,
 			int endHeight, int speed, Entity lockon) {
 		sendCoords(source, -3, -2);
-		PacketBuilder bldr = new PacketBuilder(39)
-				.put((byte) angle)
-				.put((byte) offsetX)
-				.put((byte) offsetY)
-				.putShort(
-						lockon == null ? -1
-								: (lockon instanceof Player ? -lockon
-										.getIndex() - 1 : lockon.getIndex() + 1))
-				.putShort(gfx).put((byte) startHeight).put((byte) endHeight)
-				.putShort(53).putShort(speed).put((byte) 16).put((byte) 64);
+		PacketBuilder bldr = new PacketBuilder(39).put((byte) angle).put(
+				(byte) offsetX).put((byte) offsetY).putShort(
+				lockon == null ? -1 : (lockon instanceof Player ? -lockon
+						.getIndex() - 1 : lockon.getIndex() + 1)).putShort(gfx)
+				.put((byte) startHeight).put((byte) endHeight).putShort(53)
+				.putShort(speed).put((byte) 16).put((byte) 64);
 		player.getSession().write(bldr.toPacket());
 		return this;
 	}
@@ -1199,8 +1193,8 @@ public class ActionSender {
 	// Something to do with model rotation..
 	public ActionSender sendPacket125(int interfaceId, int childId, int info1,
 			int info2) {
-		PacketBuilder bldr = new PacketBuilder(125).putLEShort(info1)
-				.putInt2(interfaceId << 16 | childId).putShort(info2);
+		PacketBuilder bldr = new PacketBuilder(125).putLEShort(info1).putInt2(
+				interfaceId << 16 | childId).putShort(info2);
 		player.getSession().write(bldr.toPacket());
 		return this;
 	}
@@ -1220,8 +1214,8 @@ public class ActionSender {
 	public ActionSender animateInterfaceId(int emoteId, int interfaceId,
 			int childId) {
 		player.getSession().write(
-				new PacketBuilder(155).putLEShortA(emoteId)
-						.putInt2(interfaceId << 16 | childId).toPacket());
+				new PacketBuilder(155).putLEShortA(emoteId).putInt2(
+						interfaceId << 16 | childId).toPacket());
 		return this;
 	}
 

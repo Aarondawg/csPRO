@@ -41,14 +41,16 @@ public class GreenDragon extends NPC {
 							|| pVictim.getEquipment()
 									.get(Equipment.SLOT_SHIELD).getId() == 11284) {
 						damage /= 10;
-						pVictim.getActionSender()
+						pVictim
+								.getActionSender()
 								.sendMessage(
 										"Your anti-dragonfire shield protected you from the dragons fire.");
 						print = false;
 					}
 				}
 				if (print) {
-					pVictim.getActionSender()
+					pVictim
+							.getActionSender()
 							.sendMessage(
 									damage >= 40 ? "You were burnt terribly in the dragons fire!"
 											: "You manage to resist some of the dragons fire.");

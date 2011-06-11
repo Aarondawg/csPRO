@@ -124,14 +124,14 @@ public class Combat {
 					}
 					if (pSource.getRequestManager().getDuel().getOther(pSource) != pVictim) {
 						pSource.getActionSender().sendMessage(
-								"You can only attack your own opponment!");
+								"You can only attack your own opponnent!");
 						return false;
 					}
 					return true;
 				} else {
 					pSource.setTeleportTarget(Entity.DEFAULT_LOCATION);
 					pSource.getActionSender().sendMessage(
-							"Please contact Brown if this happened.");
+							"Please contact Mod Seb or Mod Aaron if this happened.");
 				}
 
 			}
@@ -1050,6 +1050,12 @@ public class Combat {
 			if (player.getWarriorsGuild().getCurrentArmour() != npc) {
 				return false;
 			}
+		}
+		if (player.getLocation().getDistance(npc.getLocation()) < 1) {
+			player.getWalkingQueue().reset();
+			player.getWalkingQueue().addStep(0, -1);
+			player.getWalkingQueue().finish();
+			player.face(npc.getLocation());
 		}
 		switch (npc.getDefinition().getId()) {
 		/*

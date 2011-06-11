@@ -37,7 +37,7 @@ public class Constants {
 	 * Incoming packet sizes array.
 	 */
 	public static final int[] PACKET_SIZES = new int[] {
-			// 0---1---2---3---4---5---6---7---8---9
+	// 0---1---2---3---4---5---6---7---8---9
 			0, -3, -3, -3, 2, -3, -3, 02, -3, -3, // 0
 			-3, 8, -3, -3, -3, -3, -3, -3, -3, -3, // 1
 			-3, 8, 06, 16, 2, -1, -3, -3, -3, -3, // 2
@@ -718,6 +718,6 @@ public class Constants {
 	/**
 	 * The forums address.
 	 */
-	public static final String FORUMS = "http://www.projectannihilation.org/";
+	public static final String FORUMS = "http://www.google.com/";
 
 }

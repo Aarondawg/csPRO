@@ -482,6 +482,9 @@ public class Shop {
 		if (Constants.playerBoundItem(itemId)) {
 			player.getActionSender().sendMessage("You can't sell this item!");
 		}
+		if (itemId == 995) {
+			player.getActionSender().sendMessage("You can't sell coins to a shop!");
+		}
 		Shop shop = player.getCurrentShop();
 		boolean inventoryFiringEvents = player.getInventory().isFiringEvents();
 		player.getInventory().setFiringEvents(false);

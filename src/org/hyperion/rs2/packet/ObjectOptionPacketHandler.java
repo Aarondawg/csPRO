@@ -23,10 +23,12 @@ import org.hyperion.rs2.content.traveling.Levers;
 import org.hyperion.rs2.content.traveling.Obelisks;
 import org.hyperion.rs2.content.traveling.ShipTraveling;
 import org.hyperion.rs2.event.Event;
+import org.hyperion.rs2.model.Animation;
 import org.hyperion.rs2.model.GameObject;
 import org.hyperion.rs2.model.GameObjectDefinition;
 import org.hyperion.rs2.model.Location;
 import org.hyperion.rs2.model.Player;
+import org.hyperion.rs2.model.Skills;
 import org.hyperion.rs2.model.World;
 import org.hyperion.rs2.model.container.Bank;
 import org.hyperion.rs2.model.region.Region;
@@ -598,6 +600,16 @@ public class ObjectOptionPacketHandler implements PacketHandler {
 					case 25808:
 					case 26972:
 						Bank.open(player);
+						break;
+					/*
+					 * Dummies.
+					 */
+					case 823:
+						if (Skills.ATTACK <= 8) {
+							player.playAnimation(Animation.create(player.getAttackAnimation()));
+							player.getActionSender().sendMessage("You swing at the dummy.");
+							player.getActionSender().sendSkill(Skills.ATTACK);
+						}
 						break;
 					/*
 					 * Spinning wheel.

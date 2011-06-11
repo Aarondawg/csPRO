@@ -174,9 +174,8 @@ public class NPCOptionPacketHandler implements PacketHandler {
 	private static final String[][] RANDOM_DIALOGUES = {
 			{ "Hello sir. How are you today?" },
 			{ "Great weather, huh?" },
-			{ "Aah. Another great day in the wonderfull world of",
-					"Project Annihilation." },
-			{ "Oh god. What a terrible day!" }, };
+			{ "Lots of work to do today!"},
+			{ "Oh god, what a terrible day!" }, };
 
 	private static final Emotes[] RANDOM_EMOTES = { Emotes.HAPPY, Emotes.HAPPY,
 			Emotes.HAPPY, Emotes.SAD };
