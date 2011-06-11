@@ -131,7 +131,7 @@ public class Combat {
 				} else {
 					pSource.setTeleportTarget(Entity.DEFAULT_LOCATION);
 					pSource.getActionSender().sendMessage(
-							"Please contact Mod Seb or Mod Aaron if this happened.");
+							"Please contact Mod Sebo or Mod Aaron if this happened.");
 				}
 
 			}
